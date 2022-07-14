@@ -1,11 +1,13 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const LogoPopOS = () => {
   const [openInfo, setOpenInfo] = useState<boolean>(false);
+  const logoRef = useRef<any>();
+  const logoInfoRef = useRef<any>();
 
   useEffect(() => {
     const closeInfo = (e: any) => {
-      if (e.path[5].id !== "popOSLogo") {
+      if (!e.path.includes(logoRef.current) && !e.path.includes(logoInfoRef.current)) {
         setOpenInfo(false);
       }
     };
@@ -13,11 +15,12 @@ const LogoPopOS = () => {
 
     return () => document.body.removeEventListener("click", closeInfo);
   }, []);
+  
   return (
     <div>
       <button
         type="button"
-        id="popOSLogo"
+        ref={logoRef}
         onClick={(e) => {
           e.preventDefault();
           setOpenInfo(!openInfo);
@@ -34,7 +37,6 @@ const LogoPopOS = () => {
           width="1.5rem"
           height="1.5rem"
           viewBox="0 0 172 172"
-          id="popOSLogo"
         >
           <defs>
             <linearGradient
@@ -142,38 +144,39 @@ const LogoPopOS = () => {
         </svg>
       </button>
       <div
+        ref={logoInfoRef}
         className={`${
           openInfo ? "visible opacity-100" : "invisible opacity-0"
         } transition-all duration-200 absolute left-0 mt-1 py-2 px-1 rounded-lg shadow-lg text-gray-300 bg-[#303030] border border-slate-700 flex flex-col gap-1`}
       >
-        <h3 className="whitespace-nowrap font-bold text-xs text-center mb-1">
+        <h3 className="whitespace-nowrap font-bold text-sm text-center mb-1">
           My custom POP_OS!
         </h3>
         <a
           href="https://www.gnome-look.org/p/1403328/"
           target="_blank"
-          className="text-xs transition ease-in-out hover:bg-gray-200 hover:bg-opacity-20 py-1 px-1.5 rounded-sm duration-300"
+          className="text-sm transition ease-in-out hover:bg-gray-200 hover:bg-opacity-20 py-1 px-1.5 rounded-sm duration-300"
         >
           🎨 WhiteSur-dark
         </a>
         <a
           href="https://www.linuxhelp.com/how-to-install-plank-on-popos"
           target="_blank"
-          className="text-xs transition ease-in-out hover:bg-gray-200 hover:bg-opacity-20 py-1 px-1.5 rounded-sm duration-300"
+          className="text-sm transition ease-in-out hover:bg-gray-200 hover:bg-opacity-20 py-1 px-1.5 rounded-sm duration-300"
         >
           ⚓ Plank dock app
         </a>
         <a
           href="https://github.com/dikiaap/frost-plank-theme"
           target="_blank"
-          className="text-xs transition ease-in-out hover:bg-gray-200 hover:bg-opacity-20 py-1 px-1.5 rounded-sm duration-300 whitespace-nowrap"
+          className="text-sm transition ease-in-out hover:bg-gray-200 hover:bg-opacity-20 py-1 px-1.5 rounded-sm duration-300 whitespace-nowrap"
         >
           🧊 Plank Frost Theme
         </a>
         <a
           href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme"
           target="_blank"
-          className="text-xs transition ease-in-out hover:bg-gray-200 hover:bg-opacity-20 py-1 px-1.5 rounded-sm duration-300"
+          className="text-sm transition ease-in-out hover:bg-gray-200 hover:bg-opacity-20 py-1 px-1.5 rounded-sm duration-300"
         >
           😱 Papirus-dark Icons
         </a>

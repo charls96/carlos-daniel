@@ -25,10 +25,11 @@ const DateTime = () => {
 
   const [openInfo, setOpenInfo] = useState<boolean>(false);
   const dateTimeRef = useRef<any>();
+  const dateTimeInfoRef = useRef<any>();
 
   useEffect(() => {
     const closeInfo = (e: any) => {
-      if (e.path[1] !== dateTimeRef.current) {
+      if (!e.path.includes(dateTimeRef.current) && !e.path.includes(dateTimeInfoRef.current) ) {
         setOpenInfo(false);
       }
     };
@@ -39,13 +40,13 @@ const DateTime = () => {
 
   return (
     <div className="relative">
-      <button ref={dateTimeRef} onClick={() => setOpenInfo(!openInfo)} className="flex gap-2 text-gray-300 text-sm items-center font-extrabold hover:bg-gray-200 hover:bg-opacity-20 rounded-full px-2 py-1 cursor-pointer">
-        <p>{monthNames[date.getMonth()] + " " + date.getDate()}</p>
+      <button id="dateTimeButton" type="button" ref={dateTimeRef} onClick={() => setOpenInfo(!openInfo)} className="flex text-gray-300 text-sm items-center font-extrabold hover:bg-gray-200 hover:bg-opacity-20 rounded-full px-2 py-1 cursor-pointer">
+        <p className="pr-2">{monthNames[date.getMonth()] + " " + date.getDate()}</p>
         <p>
           {date.getHours() + ":" + String(date.getMinutes()).padStart(2, "0")}
         </p>
       </button>
-      <DateTimeInfo openInfo={openInfo} dateTimeRef={dateTimeRef} />
+      <DateTimeInfo openInfo={openInfo} dateTimeInfoRef={dateTimeInfoRef} />
     </div>
   );
 };
