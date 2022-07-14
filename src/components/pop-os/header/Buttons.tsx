@@ -11,9 +11,6 @@ export const Buttons = () => {
         <IoRemoveOutline />
       </div>
       <div
-        onClick={() => {
-          window.resizeBy(screen.width, screen.height);
-        }}
         className="cursor-pointer relative bg-green-500 w-4 h-4 rounded-full text-transparent  hover:odd:text-gray-700 hover:even:text-gray-700"
       >
         <IoCaretUpOutline className="h-[0.5rem] w-[0.5rem] rotate-45 absolute left-[0.35rem] top-[0.15rem]" />
