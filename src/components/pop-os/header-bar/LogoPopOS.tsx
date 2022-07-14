@@ -144,7 +144,7 @@ const LogoPopOS = () => {
       <div
         className={`${
           openInfo ? "visible opacity-100" : "invisible opacity-0"
-        } transition-all duration-200 absolute left-0 mt-1 py-2 px-1 rounded-lg shadow-lg text-gray-200 bg-[#303030] border border-slate-700 flex flex-col gap-1`}
+        } transition-all duration-200 absolute left-0 mt-1 py-2 px-1 rounded-lg shadow-lg text-gray-300 bg-[#303030] border border-slate-700 flex flex-col gap-1`}
       >
         <h3 className="whitespace-nowrap font-bold text-xs text-center mb-1">
           My custom POP_OS!
