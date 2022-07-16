@@ -6,7 +6,7 @@ import {
 } from "react-icons/io5";
 export const Buttons = () => {
   return (
-    <div className="flex justify-end gap-2">
+    <div className="flex justify-end gap-2 p-4">
       <div className="cursor-pointer bg-amber-500 w-4 h-4 rounded-full text-center font-extrabold text-transparent hover:first:text-gray-700">
         <IoRemoveOutline />
       </div>
