@@ -61,3 +61,13 @@ code {
   }
   
 }
+
+.is-active-footer-link img:nth-child(1) {
+  border-bottom-width: 3px;
+  border-color: rgb(229,231,235);
+}
+
+.is-active-footer-link span:nth-child(1) {
+  border-bottom-width: 3px;
+  border-color: rgb(229,231,235);
+}
