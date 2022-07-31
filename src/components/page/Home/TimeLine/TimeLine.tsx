@@ -3,9 +3,9 @@ import Line from "./Line";
 const TimeLine = () => {
   return (
     <div className="text-gray-200 text-sm flex flex-col gap-2">
-      <div className="flex ml-8">
+      <div className="flex flex-col sm:flex-row mx-8 sm:ml-8">
         <div className="flex flex-col items-center bg-slate-800 p-2 rounded shadow-xl">
-          <p className="mb-1 text-pink-600 font-medium flex items-center">
+          <div className="mb-1 text-pink-600 font-medium flex items-center">
             <div className="w-6 h-6 mr-1">
               <svg
                 id="emoji"
@@ -46,73 +46,73 @@ const TimeLine = () => {
                   <path
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M10.2884,34.9887V27.2739s.3826-20.225,23.3254-20.225c17.9306,0,21.0732,11.6225,21.5906,16.7008a2.14,2.14,0,0,0,1.2628,1.7566c1.1892.5224,3.4722,1.5061,4.4474,2.9856"
                   />
                   <path
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M41.2792,10.6242a3.2361,3.2361,0,0,1,.03.6192,1.64,1.64,0,0,1-.6356,1.1838c-1.09.8681-2.5035,1.4612-3.1,2.7568-.6021,1.2174-.5677,3.1808-2.1123,3.6421-1.8331.3038-2.68-1.4424-3.0156-3.0674-.4465-2.16-3.4168-1.92-4.501-3.4988a5.4826,5.4826,0,0,1-.0672-4.7367"
                   />
                   <path
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M19.1615,14.9782a2.8385,2.8385,0,0,1,.7939,1.2076c.2871.7931.2751,1.7432.865,2.3461a4.3425,4.3425,0,0,0,1.2045.7106,5.1737,5.1737,0,0,1,2.7217,3.769c.4835,2.7822-2.2428,2.208-3.4466,3.8024-.8071,1.1837-.3777,3.1892-1.7771,3.97a4.122,4.122,0,0,1-2.7068.076c-.6758-.3069-1.04-1.04-1.6059-1.52-1.0877-.922-2.7021-.7735-4.0425-1.26a1.2269,1.2269,0,0,1-.8633-.7694"
                   />
                   <path
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M51.8925,14.6983c-1.2812.7267-1.8385,2.4606-2.2976,4.1693a8.51,8.51,0,0,1-2.3477,3.9377c-4.7234,4.5087.489,6.2689,5.352,4.9541"
                   />
                   <path
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M39.53,24.7564c.017.1912.0333.3836.0611.5722a2.4055,2.4055,0,0,0,.3333.87c1.8952,3.1736-.076,3.6362-2.7874,4.3207a2.4982,2.4982,0,0,0-1.1806.6853c-.9283.9572-1.6846,2.1508-3.1407,2.3806-2.1614.8111-5.4346-.3425-5.1039-3.0114.13-.773.6482-1.4308.832-2.1931.2488-1.0318-.1283-2.185.1881-3.169a1.9309,1.9309,0,0,1,.3446-.6049c1.9845-2.4709,6.2012-3.1215,9.0686-1.8523A2.4072,2.4072,0,0,1,39.53,24.7564Z"
                   />
                   <path
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M22.7661,39.2424q-.07-.0821-.1483-.1575a8.4287,8.4287,0,0,0-1.7252-1.0674c-.9887-.5743-1.8066-1.4009-2.7577-2.0356a3.9614,3.9614,0,0,0-3.2328-.75,4.3711,4.3711,0,0,0-1.2835.7023,15.4907,15.4907,0,0,0-2.9007,2.7485,1.9838,1.9838,0,0,0-.43,1.2537h0a2.0181,2.0181,0,0,0,2.018,2.0179h9.353a18.9116,18.9116,0,0,0,12.0256-4.316l2.61-2.1506a18.9112,18.9112,0,0,1,12.0256-4.316h13.26"
                   />
                   <path
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M42.1156,32.089s.3991,10.8651-5.8172,15.5623"
                   />
                   <path
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M31.2564,48.9821q-.5181-.0081-1.0847.0129c-5.6436.213-10.7778-6.4626-11.2116-7.0408"
                   />
                   <path
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M36.2984,47.6513A10.8261,10.8261,0,0,1,44.8631,52.39s2.2657,3.1164,5.7239,2.1147S53.6,56.5634,53.6,56.5634s-.7791,4.4825-5.7319,2.09c0,0-5.4314-3.01-7.739-5.3173a15.6652,15.6652,0,0,0-3.9437-3.2863"
                   />
                   <rect
@@ -124,15 +124,15 @@ const TimeLine = () => {
                     transform="matrix(-.99579 -.09168 .09168 -.99579 62.954 100.576)"
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                   />
                 </g>
               </svg>
             </div>
             Mar - June 2022
-          </p>
+          </div>
           <p className="font-semibold">Internship Full-Stack Developer</p>
           <p>NTTDATA</p>
         </div>
@@ -154,33 +154,33 @@ const TimeLine = () => {
                 <path
                   fill="none"
                   stroke="#000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M55.1092,25.38a21.8626,21.8626,0,1,1-8.0938-8.2451"
                 />
                 <path
                   fill="none"
                   stroke="#000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M62.9392,35.9973a27.0463,27.0463,0,1,1-5.265-16.0382"
                 />
                 <polyline
                   fill="none"
                   stroke="#000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   points="47.394 21.578 58.432 20.418 57.272 9.38"
                 />
                 <polyline
                   fill="none"
                   stroke="#000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   points="49.975 36.354 35.987 36.354 35.891 36.354 35.891 18.52"
                 />
                 <line
@@ -190,16 +190,16 @@ const TimeLine = () => {
                   y2="50.0661"
                   fill="none"
                   stroke="#000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                 />
                 <polyline
                   fill="none"
                   stroke="#000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   points="21.143 36.354 18.086 36.354 18.086 36.354"
                 />
                 <circle cx="35.8906" cy="36.3538" r="3.7371" />
@@ -214,9 +214,9 @@ const TimeLine = () => {
         <Line />
       </div>
 
-      <div className="flex justify-around">
+      <div className="flex flex-col mx-8 sm:mx-0 gap-4 sm:gap-0 sm:flex-row justify-around">
         <div className="flex flex-col items-center bg-slate-800 p-2 rounded shadow-xl">
-          <p className="mb-1 text-pink-600 font-medium flex items-center">
+          <div className="mb-1 text-pink-600 font-medium flex items-center">
             <div className="w-6 h-6 mr-1">
               <svg
                 id="emoji"
@@ -243,9 +243,9 @@ const TimeLine = () => {
                     height="4.0355"
                     fill="none"
                     stroke="#92d3f5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                   />
                   <rect
                     x="13.7162"
@@ -254,9 +254,9 @@ const TimeLine = () => {
                     height="4.0355"
                     fill="none"
                     stroke="#92d3f5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                   />
                   <rect
                     x="20.4982"
@@ -265,9 +265,9 @@ const TimeLine = () => {
                     height="4.8443"
                     fill="none"
                     stroke="#92d3f5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                   />
                   <rect
                     x="13.7162"
@@ -276,9 +276,9 @@ const TimeLine = () => {
                     height="4.8443"
                     fill="none"
                     stroke="#92d3f5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                   />
                   <rect
                     x="20.4982"
@@ -287,9 +287,9 @@ const TimeLine = () => {
                     height="4.8443"
                     fill="none"
                     stroke="#92d3f5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                   />
                   <rect
                     x="13.7162"
@@ -298,9 +298,9 @@ const TimeLine = () => {
                     height="4.8443"
                     fill="none"
                     stroke="#92d3f5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                   />
                   <rect
                     x="56.3461"
@@ -309,9 +309,9 @@ const TimeLine = () => {
                     height="4.0355"
                     fill="none"
                     stroke="#92d3f5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                   />
                   <rect
                     x="49.564"
@@ -320,9 +320,9 @@ const TimeLine = () => {
                     height="4.0355"
                     fill="none"
                     stroke="#92d3f5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                   />
                   <rect
                     x="56.3461"
@@ -331,9 +331,9 @@ const TimeLine = () => {
                     height="4.8443"
                     fill="none"
                     stroke="#92d3f5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                   />
                   <rect
                     x="49.564"
@@ -342,9 +342,9 @@ const TimeLine = () => {
                     height="4.8443"
                     fill="none"
                     stroke="#92d3f5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                   />
                   <rect
                     x="56.3461"
@@ -353,9 +353,9 @@ const TimeLine = () => {
                     height="4.8443"
                     fill="none"
                     stroke="#92d3f5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                   />
                   <rect
                     x="49.564"
@@ -364,9 +364,9 @@ const TimeLine = () => {
                     height="4.8443"
                     fill="none"
                     stroke="#92d3f5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                   />
                   <polygon
                     fill="#d22f27"
@@ -403,48 +403,48 @@ const TimeLine = () => {
                     height="36.02"
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                   />
                   <polygon
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     points="24.8 20.49 26.72 20.49 26.72 23.56 9.36 23.56 13.21 17.42 28.4107 17.42 24.8 20.49"
                   />
                   <polygon
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     points="47.2 20.49 45.2837 20.49 45.2837 23.56 62.6437 23.56 58.7936 17.42 43.592 17.42 47.2 20.49"
                   />
                   <polygon
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     points="47.2 20.49 24.8 20.49 26.72 18.8591 36 10.96 47.2 20.49"
                   />
                   <path
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M9.7104,50.8525h14.493c1.3887,0,2.5144,1.1257,2.5144,2.5144v3.1387H7.196v-3.1387c0-1.3887,1.1257-2.5144,2.5144-2.5144Z"
                   />
                   <path
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M47.7967,50.8525h14.493c1.3887,0,2.5144,1.1257,2.5144,2.5144v3.1387h-19.5218v-3.1387c0-1.3887,1.1257-2.5144,2.5144-2.5144Z"
                   />
                   <line
@@ -454,16 +454,16 @@ const TimeLine = () => {
                     y2="52.7411"
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                   />
                   <polyline
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     points="9.3563 50.8525 9.3563 23.5644 26.7177 23.5644"
                   />
                   <line
@@ -473,16 +473,16 @@ const TimeLine = () => {
                     y2="56.5056"
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                   />
                   <polyline
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     points="45.2823 23.5644 62.6437 23.5644 62.6437 50.8525"
                   />
                   <rect
@@ -492,9 +492,9 @@ const TimeLine = () => {
                     height="12.7465"
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                   />
                   <line
                     x1="36"
@@ -503,9 +503,9 @@ const TimeLine = () => {
                     y2="39.9946"
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                   />
                   <circle
                     cx="36"
@@ -513,9 +513,9 @@ const TimeLine = () => {
                     r="6.2976"
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                   />
                   <line
                     x1="36"
@@ -524,9 +524,9 @@ const TimeLine = () => {
                     y2="26.5497"
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                   />
                   <line
                     x1="36"
@@ -535,9 +535,9 @@ const TimeLine = () => {
                     y2="29.6825"
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                   />
                   <line
                     x1="20.4982"
@@ -546,9 +546,9 @@ const TimeLine = () => {
                     y2="46.817"
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                   />
                   <line
                     x1="13.7162"
@@ -557,40 +557,40 @@ const TimeLine = () => {
                     y2="46.817"
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                   />
                   <polyline
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     points="22.436 41.9727 20.4982 41.9727 20.4982 37.1284"
                   />
                   <polyline
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     points="15.6539 41.9727 13.7162 41.9727 13.7162 37.1284"
                   />
                   <polyline
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     points="22.436 32.2841 20.4982 32.2841 20.4982 27.4398"
                   />
                   <polyline
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     points="15.6539 32.2841 13.7162 32.2841 13.7162 27.4398"
                   />
                   <line
@@ -600,9 +600,9 @@ const TimeLine = () => {
                     y2="46.817"
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                   />
                   <line
                     x1="49.564"
@@ -611,54 +611,54 @@ const TimeLine = () => {
                     y2="46.817"
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                   />
                   <polyline
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     points="58.2838 41.9727 56.3461 41.9727 56.3461 37.1284"
                   />
                   <polyline
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     points="51.5018 41.9727 49.564 41.9727 49.564 37.1284"
                   />
                   <polyline
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     points="58.2838 32.2841 56.3461 32.2841 56.3461 27.4398"
                   />
                   <polyline
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     points="51.5018 32.2841 49.564 32.2841 49.564 27.4398"
                   />
                 </g>
               </svg>
             </div>
             Sep 2020 - June 2022
-          </p>
-          <p className="font-semibold">
+          </div>
+          <p className="font-semibold text-center">
             Vocational Training in Web Development
           </p>
           <p>IES Ingeniero De La Cierva</p>
         </div>
         <div className="flex flex-col items-center bg-slate-800 p-2 rounded shadow-xl">
-          <p className="mb-1 text-pink-600 font-medium flex items-center">
+          <div className="mb-1 text-pink-600 font-medium flex items-center">
             <div className="w-6 h-6 mr-1">
               <svg
                 id="emoji"
@@ -674,19 +674,19 @@ const TimeLine = () => {
                   <polyline
                     fill="#92d3f5"
                     stroke="#92d3f5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-miterlimit="10"
-                    stroke-width="1.8"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeMiterlimit="10"
+                    strokeWidth="1.8"
                     points="54.9988,4.0221 43,16.0208 36,16.0208 30.9584,10.9792 37.9207,4.0169 54.9988,4.0169"
                   />
                   <polyline
                     fill="#ea5a47"
                     stroke="#ea5a47"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-miterlimit="10"
-                    stroke-width="1.8"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeMiterlimit="10"
+                    strokeWidth="1.8"
                     points="23.9831,4.0039 36,16.0208 29,16.0208 16.9675,3.9883 23.9831,3.9883"
                   />
                   <circle
@@ -695,10 +695,10 @@ const TimeLine = () => {
                     r="23"
                     fill="#fcea2b"
                     stroke="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-miterlimit="10"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeMiterlimit="10"
+                    strokeWidth="2"
                   />
                 </g>
                 <g id="hair" />
@@ -711,8 +711,8 @@ const TimeLine = () => {
                     r="23"
                     fill="none"
                     stroke="#000000"
-                    stroke-miterlimit="10"
-                    stroke-width="2"
+                    strokeMiterlimit="10"
+                    strokeWidth="2"
                   />
                   <circle
                     cx="36"
@@ -720,10 +720,10 @@ const TimeLine = () => {
                     r="23"
                     fill="none"
                     stroke="#000000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-miterlimit="10"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeMiterlimit="10"
+                    strokeWidth="2"
                   />
                   <line
                     x1="29"
@@ -732,10 +732,10 @@ const TimeLine = () => {
                     y2="16.0208"
                     fill="none"
                     stroke="#000000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-miterlimit="10"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeMiterlimit="10"
+                    strokeWidth="2"
                   />
                   <line
                     x1="43"
@@ -744,10 +744,10 @@ const TimeLine = () => {
                     y2="16.0208"
                     fill="none"
                     stroke="#000000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-miterlimit="10"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeMiterlimit="10"
+                    strokeWidth="2"
                   />
                   <line
                     x1="29"
@@ -756,10 +756,10 @@ const TimeLine = () => {
                     y2="16.0208"
                     fill="none"
                     stroke="#000000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-miterlimit="10"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeMiterlimit="10"
+                    strokeWidth="2"
                   />
                   <line
                     x1="25.9896"
@@ -768,10 +768,10 @@ const TimeLine = () => {
                     y2="3.9883"
                     fill="none"
                     stroke="#000000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-miterlimit="10"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeMiterlimit="10"
+                    strokeWidth="2"
                   />
                   <line
                     x1="31.9896"
@@ -780,10 +780,10 @@ const TimeLine = () => {
                     y2="4.0039"
                     fill="none"
                     stroke="#000000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-miterlimit="10"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeMiterlimit="10"
+                    strokeWidth="2"
                   />
                   <line
                     x1="34"
@@ -792,10 +792,10 @@ const TimeLine = () => {
                     y2="4.0169"
                     fill="none"
                     stroke="#000000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-miterlimit="10"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeMiterlimit="10"
+                    strokeWidth="2"
                   />
                   <line
                     x1="46"
@@ -804,10 +804,10 @@ const TimeLine = () => {
                     y2="4.0221"
                     fill="none"
                     stroke="#000000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-miterlimit="10"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeMiterlimit="10"
+                    strokeWidth="2"
                   />
                   <line
                     x1="16.9675"
@@ -816,10 +816,10 @@ const TimeLine = () => {
                     y2="3.9883"
                     fill="none"
                     stroke="#000000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-miterlimit="10"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeMiterlimit="10"
+                    strokeWidth="2"
                   />
                   <line
                     x1="37.9207"
@@ -828,25 +828,25 @@ const TimeLine = () => {
                     y2="4.0169"
                     fill="none"
                     stroke="#000000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-miterlimit="10"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeMiterlimit="10"
+                    strokeWidth="2"
                   />
                   <polyline
                     fill="none"
                     stroke="#000000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-miterlimit="10"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeMiterlimit="10"
+                    strokeWidth="2"
                     points="30.3593,37.3924 37.5572,32 37.5572,58"
                   />
                 </g>
               </svg>
             </div>
             2012
-          </p>
+          </div>
           <p className="font-semibold">1st place Informatic Olimpics</p>
           <p>Murcia</p>
         </div>
