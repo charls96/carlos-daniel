@@ -15,7 +15,7 @@ const Footer = () => {
   }, []);
   return (
     <div className="flex justify-center">
-      <a href="" className="hover:text-pink-600">
+      <a href="https://github.com/charls96/carlos-daniel" target="_blank" className="hover:text-pink-600">
         <div className="flex justify-center items-center font-bold">
           Built with
           <div className="w-16 h-16">
