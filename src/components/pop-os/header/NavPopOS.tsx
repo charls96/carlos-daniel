@@ -8,7 +8,7 @@ import {
   IoEllipsisHorizontal,
 } from "react-icons/io5";
 import MobileNavPopOS from "./MobileNavPopOS";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const NavPopOS = () => {
   const [openMobileNav, setOpenMobileNav] = useState<boolean>(false);
@@ -36,16 +36,16 @@ const NavPopOS = () => {
             <IoEarthOutline /> Home
           </span>
         </NavLink>
-        <button className="hidden sm:flex items-center border-b-2 border-transparent focus:border-b-2 focus:border-gray-300 focus:text-gray-300">
+        <Link to="#experience" className="hidden sm:flex items-center border-b-2 border-transparent focus:border-b-2 focus:border-gray-300 focus:text-gray-300">
           <span className="flex items-center gap-1 px-2 py-0.5 hover:bg-gray-200 hover:bg-opacity-20 hover:text-gray-200 rounded-lg transition ease-in-out">
             <IoConstructOutline /> Experience
           </span>
-        </button>
-        <button className="hidden md:flex items-center border-b-2 border-transparent focus:border-b-2 focus:border-gray-300 focus:text-gray-300">
+        </Link>
+        <NavLink to="#projects" className="hidden md:flex items-center border-b-2 border-transparent focus:border-b-2 focus:border-gray-300 focus:text-gray-300">
           <span className="flex items-center gap-1 px-2 py-0.5 hover:bg-gray-200 hover:bg-opacity-20 hover:text-gray-200 rounded-lg transition ease-in-out">
             <IoCode /> Projects
           </span>
-        </button>
+        </NavLink>
         <button className="hidden md:flex items-center border-b-2 border-transparent focus:border-b-2 focus:border-gray-300 focus:text-gray-300">
           <span className="flex items-center gap-1 px-2 py-0.5 hover:bg-gray-200 hover:bg-opacity-20 hover:text-gray-200 rounded-lg transition ease-in-out">
             <IoChatbubblesOutline /> Contact

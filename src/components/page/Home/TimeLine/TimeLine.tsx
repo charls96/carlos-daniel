@@ -2,7 +2,7 @@ import Line from "./Line";
 
 const TimeLine = () => {
   return (
-    <div className="text-gray-200 text-sm flex flex-col gap-2">
+    <div id="experience" className="text-gray-200 text-sm flex flex-col gap-2">
       <div className="flex flex-col sm:flex-row mx-8 sm:ml-8">
         <div className="flex flex-col items-center bg-slate-800 p-2 rounded shadow-xl">
           <div className="mb-1 text-pink-600 font-medium flex items-center">
