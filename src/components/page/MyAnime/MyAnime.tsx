@@ -1,6 +1,14 @@
 const MyAnime = () => {
   return (
-    <div>MyAnime</div>
+    <div>
+       <p className="text-9xl">My anime</p>
+      <p className="text-9xl">My anime</p>
+      <p className="text-9xl">My anime</p>
+      <p className="text-9xl">My anime</p>
+      <p className="text-9xl">My anime</p>
+      <p className="text-9xl">My anime</p>
+      
+    </div>
   )
 }
 

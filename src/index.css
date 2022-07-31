@@ -9,7 +9,8 @@ body {
   background-size: cover;
   height: 100vh;
   width: 100vw;
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -29,7 +30,7 @@ code {
   background: #0f172a;
   border-radius: 10px;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #888;
@@ -38,36 +39,107 @@ code {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #555;
 }
 
-.bounce-once{
+.bounce-once {
   animation: bounce 0.7s;
 }
 
 @keyframes bounce {
-  0%, 50%, 100% {
+  0%,
+  50%,
+  100% {
     transform: translateY(-15%);
     animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
   }
-  25%{
+  25% {
     transform: translateY(-40%);
     animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
   }
 
-  75%{
+  75% {
     transform: translateY(-25%);
     animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
   }
-  
 }
 
 .is-active-footer-link img:nth-child(1) {
   border-bottom-width: 3px;
-  border-color: rgb(229,231,235);
+  border-color: rgb(229, 231, 235);
 }
 
 .is-active-footer-link span:nth-child(1) {
   border-bottom-width: 3px;
-  border-color: rgb(229,231,235);
+  border-color: rgb(229, 231, 235);
 }
+
+.matrix-text {
+  color: #33ff66;
+  text-shadow: 0 0 2px #33ff66, 0 0 5px #33ff66;
+  animation: flicker 5s infinite alternate;
+}
+
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 2px #33ff66, 0 0 5px #33ff66;
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: 0 0 2px #0e8e2e, 0 0 5px #0e8e2e;
+  }
+}
+
+
+.matrix-pill:after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 43px;
+  height: 10px;
+  border-radius: 99em;
+  background-color: rgba(255, 255, 255, 0.5);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -150%);
+}
+
+.matrix-pill:before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 120%;
+  height: 100%;
+  border-radius: 99em;
+  background-color: rgba(255, 255, 255, 0.25);
+  left: 50%;
+  top: 120%;
+  transform: translate(-50%, -150%);
+}
+
+.matrix-pill {
+  border: none;
+  background-color: transparent;
+  height: 43px;
+  width: 88px;
+  border-radius: 99em;
+  background-color: #000;
+  background-image: linear-gradient(
+    90deg,
+    #47A1E0 50%,
+    #47A1E0 50%,
+    #3A81B3 50%,
+    #3A81B3 100%
+  );
+  position: relative;
+  overflow: hidden;
+}
+
