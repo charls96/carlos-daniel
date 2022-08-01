@@ -14,11 +14,11 @@ const Footer = () => {
       });
   }, []);
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center text-sm">
       <a href="https://github.com/charls96/carlos-daniel" target="_blank" className="hover:text-pink-600">
         <div className="flex justify-center items-center font-bold">
           Built with
-          <div className="w-16 h-16">
+          <div className="w-12 h-12">
             <svg
               id="emoji"
               viewBox="0 0 72 72"
@@ -100,7 +100,7 @@ const Footer = () => {
           </div>
           by Carlos Daniel
         </div>
-        <div className="flex justify-center items-cneter gap-4">
+        <div className="flex justify-center items-center gap-4">
           <div className="flex items-center font-bold gap-1">
             <div className="h-6 w-6">
               <svg
