@@ -141,3 +141,24 @@ code {
   position: relative;
   overflow: hidden;
 }
+
+.odd-order-project:nth-child(odd) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+@keyframes flex {
+  0%, 100% {
+    transform: rotate(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: rotate(0) scale(1.1);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.flex-biceps:hover {
+  animation: flex 2s infinite alternate;
+}
