@@ -56,7 +56,7 @@ const Home = () => {
       {/*       <p className="text-6xl">effecto cambiar texto del dni para poner cosas sobre mi</p>
       <p className="text-6xl">I know you want to know more from me but wait for the cream (referencia a malditos bastardos)</p>
       <p className="text-6xl">A little mis of these 🧪 and other from that 🧪 we get my skills</p> */}
-      <div className="mb-12 sm:mb-24">
+      <div className="mt-48 md:mt-28 mb-12 sm:mb-24">
         <Footer />
       </div>
     </div>
